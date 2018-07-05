@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: registry.local.test/hello-world:0.1.0
+        image: registry.local.test/hello-world
         ports:
         - name: http-port
           containerPort: 8080
