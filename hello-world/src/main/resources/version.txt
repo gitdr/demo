@@ -1,4 +1,1 @@
-${project.version}
-${project.build.finalName}
-${rpm.version}
-${rpm.release}
+${rpm.version}-${rpm.release}
