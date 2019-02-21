@@ -3,6 +3,9 @@ kind: DaemonSet
 metadata:
   name: build-registry-proxy
 spec:
+  selector:
+    matchLabels:
+      k8s-app: build-registry-proxy
   template:
     metadata:
       labels:
