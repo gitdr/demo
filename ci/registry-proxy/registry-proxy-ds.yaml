@@ -15,6 +15,9 @@ spec:
       - name: kube-registry-proxy
         image: gcr.io/google_containers/kube-registry-proxy:0.4
         resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
           limits:
             cpu: 1
             memory: 500Mi
