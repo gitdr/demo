@@ -17,6 +17,7 @@ spec:
       containers:
       - name: hello-world
         image: localhost:5000/builder/hello-world
+        imagePullPolicy: Always
         ports:
         - name: http-port
           containerPort: 8080
