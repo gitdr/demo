@@ -23,7 +23,7 @@ spec:
             memory: 500Mi
         env:
         - name: REGISTRY_HOST
-          value: build-registry
+          value: build-registry.default.svc.cluster.local
         - name: REGISTRY_PORT
           value: "5000"
         ports:
